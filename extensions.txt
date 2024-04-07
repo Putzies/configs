@@ -1,0 +1,12 @@
+Auto Rename Tag
+EsList
+FindItFaster
+macros
+multi-command
+Night Owl (Theme)
+Numbered Bookmarks
+Prettier
+vscode-icons
+vscode-styled-components
+wsl
+YAML
