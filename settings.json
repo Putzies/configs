@@ -1,0 +1,52 @@
+{
+  // LANGUAGES
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // TERMINAL
+  "terminal.explorerKind": "external",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.external.windowsExec": "%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+
+  // EXPLORER
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+  "explorer.openEditors.visible": 1,
+
+  // EDITOR
+  "editor.cursorSurroundingLines": 10,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+
+  // WORKBENCH
+  "workbench.editor.labelFormat": "short",
+  "workbench.tree.indent": 16,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Night Owl",
+
+  // OTHER
+  "breadcrumbs.enabled": true,
+  "git.confirmSync": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "debug.allowBreakpointsEverywhere": true,
+
+  "files.exclude": {
+    "**/node_modules": true
+  },
+
+  "macros": {
+    "showFileAndFocus": [
+      "workbench.files.action.showActiveFileInExplorer",
+      "workbench.files.action.focusFilesExplorer"
+    ]
+  }
+}

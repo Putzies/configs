@@ -1,0 +1,57 @@
+[
+  {
+    "key": "alt+left",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "workbench.action.focusPreviousGroup"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.nextEditor",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.previousEditor",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+ö",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+shift+ö",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+alt+ö",
+    "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "macros.showFileAndFocus",
+    "when": "editorTextFocus"
+  }
+]
